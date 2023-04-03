@@ -1,0 +1,62 @@
+* {
+box-sizing: border-box;
+font-family: 'VT323', monospace;
+font-size: 24px;
+}
+body {
+    background-image: url('https://cdn.dribbble.com/users/374375/screenshots/2214140/port-animated-dribbble.gif');
+    background-size: cover;
+}
+.cell {
+flex-basis: 33.33%;
+height: 150px;
+border: 2px solid #333;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 5em;
+text-align: center;
+cursor: pointer;
+}
+
+#board {
+display: flex;
+flex-wrap: wrap;
+width: 450px;
+height: 450px;
+margin: auto;
+background-color: white;
+margin-bottom: 50px;
+
+}
+
+main {
+text-align: center;
+font-size: 32px;
+border: black solid 5px;
+width: 1200px;
+margin: auto;
+margin-top: 200px;
+padding-bottom: 50px;
+border-radius: 5%;
+background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 150px;
+    color: orange;
+    text-shadow: 2px 2px red;
+}
+button {
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
+input {
+    height: 50px;
+}
+
+#turn-display {
+    font-size: 40px;
+}
